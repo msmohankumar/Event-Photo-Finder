@@ -1,6 +1,8 @@
-streamlit>=1.35,<2
-deepface>=0.0.93
-opencv-python-headless>=4.9,<5
-numpy>=1.26,<2.1
-Pillow>=10
-qrcode[pil]>=7.4
+
+streamlit==1.41.1
+deepface==0.0.93
+opencv-python-headless==4.10.0.84
+numpy==1.26.4
+Pillow==10.4.0
+qrcode[pil]==7.4.2
+
