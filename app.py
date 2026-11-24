@@ -7,6 +7,7 @@ import hashlib
 import zipfile
 import qrcode
 from deepface import DeepFace
+from tensorflow.keras.preprocessing import image
 
 st.set_page_config(page_title="Event Photo Finder", page_icon="📸", layout="wide")
 st.title("📸 Event Photo Finder")
