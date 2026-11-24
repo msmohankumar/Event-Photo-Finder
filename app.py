@@ -10,10 +10,10 @@ from deepface import DeepFace
 
 st.set_page_config(page_title="Event Photo Finder", page_icon="📸", layout="wide")
 st.title("📸 Event Photo Finder")
-st.caption("Upload event photos, take or upload a selfie, and find photos containing a similar face.")
+st.caption("Upload event photos, scan the event QR, take a selfie, and find photos containing a similar face.")
 
 st.sidebar.header("Event Gallery")
-st.sidebar.write("Images and cached face embeddings are held in this Streamlit session.")
+st.sidebar.write("This prototype keeps uploaded images and face embeddings in the current Streamlit session.")
 st.sidebar.warning("Use only photos and selfies you have permission to process. Face matching can make mistakes.")
 
 # Keep a per-session cache of embeddings so a rerun or repeat search does not
