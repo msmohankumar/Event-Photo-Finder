@@ -1,6 +1,9 @@
 streamlit==1.41.1
 numpy==1.26.4
+tensorflow==2.15.0
+keras==2.15.0
 deepface==0.0.93
-opencv-python==4.10.0.84
+retina-face==0.0.17
+opencv-python-headless==4.10.0.84
 Pillow==10.4.0
 qrcode[pil]==7.4.2
